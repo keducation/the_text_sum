@@ -1,7 +1,8 @@
 # TheTextSum
 
 This project does exactly as its name suggests: takes a body of text and summarizes it.
- 
+<br />
+<br />
 
 An overview of the inner workings is as follows:
 1) Import text from file
@@ -11,19 +12,19 @@ An overview of the inner workings is as follows:
 5) Calculate the weighted frequency for each sentence based off of the word frequencies
 6) Creation of summary by selecting the top 30% of weighted sentences
 7) Export newly generated summary to a text file
- 
+<br />
 
 The heavy lifters for this project are as follows:
 - NLTK toolkit
 - nalargest library
- 
+<br />
 
 How to use this program:
 - Simply change the variables for your text file name as well as the desired output file name and run the code
 - There are comments in the code for easier identification
 - The tested text files as well as their generated outputs are included for cross-testing
+<br />
 
- 
 Demonstration video (click on the thumbnail to go to YouTube:
 
 [![Click me to go to YouTube](https://img.youtube.com/vi/MH_vVYadtXY/0.jpg)](https://www.youtube.com/watch?v=MH_vVYadtXY)
